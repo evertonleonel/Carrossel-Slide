@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(72deg, #3debb0, #5656f6) ;
+}
+
+.content {
+    height: 520px;
+    width: 900px;
+    border-radius: 150px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navegation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 70px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 6px;
+    border: solid 2px white;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bar:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
